@@ -25,7 +25,7 @@ email: yaolin45040@gmail.com
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 description: >- # this means to ignore newlines until "baseurl:"
-  ya01in, Nicholas Li(李志洸), personal blog posts about career, study notes, and more.
+  ya01in, Nicholas Li, personal blog posts about career, study notes, and more.
 domain: "ya01in.github.io"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
