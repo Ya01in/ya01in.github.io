@@ -1,0 +1,14 @@
+---
+layout: base
+title: deployment issues
+---
+<h1>Records for all encountered issues with github-page</h1>
+
+<ul>
+  {% for issue in site.deployment %}
+    <li>
+      <h2><a href="{{ issue.url }}">{{ issue.title }}</a></h2>
+      {{ issue.content }}
+    </li>
+  {% endfor %}
+</ul>
