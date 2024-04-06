@@ -35,12 +35,18 @@ github_username:  ya01in
 remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-last-modified-at
 
 minima:
   skin: dark
 
 collections:
   deployment:
+
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%d-%b-%y'
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
